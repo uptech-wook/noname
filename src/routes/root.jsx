@@ -8,13 +8,11 @@ import Opening from '../Components/Opening';
 import TopMenu from '../Components/TopMenu';
 import MainDoor from '../Components/MainDoor';
 
-export default function Root() {
-
-
-  const MainContainer = styled.div`
+const MainContainer = styled.div`
     
-  `;
+`;
 
+export default function Root() {
   return (
     <MainContainer>
       <Opening />

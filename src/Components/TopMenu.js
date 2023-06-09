@@ -2,12 +2,12 @@ import React from 'react';
 import { styled } from 'styled-components';
 import Logo from "../Images/Mainpage/Frame.png";
 
-const menu_text_1 = `About us`;
-const menu_text_2 = `Plan a visit`;
-const menu_text_3 = `Ticket & Promo`;
-const menu_text_4 = `Animals & Exhibities`;
-const menu_text_5 = `Experiences`;
-const menu_text_6 = `News & Events`;
+const MENU_TEXT_1 = `About us`;
+const MENU_TEXT_2 = `Plan a visit`;
+const MENU_TEXT_3 = `Ticket & Promo`;
+const MENU_TEXT_4 = `Animals & Exhibities`;
+const MENU_TEXT_5 = `Experiences`;
+const MENU_TEXT_6 = `News & Events`;
 
 const Header = styled.header`
   display: flex;
@@ -50,7 +50,7 @@ const Mover = styled.a`
 `
 
 
-const TopMenu = () => {
+function TopMenu () {
   return(
     <Header>
       <Navigation>
@@ -60,32 +60,32 @@ const TopMenu = () => {
         <MenuContainer>
           <Menu>
             <Mover>
-              {menu_text_1}
+              {MENU_TEXT_1}
             </Mover>
           </Menu>
           <Menu>
             <Mover>
-              {menu_text_2}
+              {MENU_TEXT_2}
             </Mover>
           </Menu>
           <Menu>
             <Mover>
-              {menu_text_3}
+              {MENU_TEXT_3}
             </Mover>
             </Menu>
           <Menu>
             <Mover>
-              {menu_text_4}
+              {MENU_TEXT_4}
             </Mover>
           </Menu>
           <Menu>
             <Mover>
-              {menu_text_5}
+              {MENU_TEXT_5}
             </Mover>
           </Menu>
           <Menu>
             <Mover>
-              {menu_text_6}
+              {MENU_TEXT_6}
             </Mover>
           </Menu>
         </MenuContainer>

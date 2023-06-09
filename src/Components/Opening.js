@@ -4,25 +4,27 @@ import React, {
 } from 'react';
 import { styled } from 'styled-components';
 
-const InfoContainer = styled.div`
-  display:flex;
-  flex: 1;
-  padding: 18px 0;
-  background-color: #000;
-  justify-content: center;
-`;
+//style start
+  const InfoContainer = styled.div`
+    display:flex;
+    flex: 1;
+    padding: 18px 0;
+    background-color: #000;
+    justify-content: center;
+  `;
 
-const TextWrapper = styled.div`
-  width: 1176px;
-`
+  const TextWrapper = styled.div`
+    width: 1176px;
+  `
 
-const InfoText = styled.p`
-  color: #fff;
-  font-family: 'Noto Sans', sans-serif;
-`
+  const InfoText = styled.p`
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+  `
+//style end
 
+function Opening () {
 
-const Opening = () => {
   return(
     <InfoContainer>
       <TextWrapper>
